@@ -14,29 +14,47 @@ body {
 /* Style for H1 element under header class */
 .header h1 {
     display: inline-block;
+   
 }
 
+a:hover {
+    color:khaki;
+    font-size: 30px;
+}
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+}
 
 /* Style for Nav element under header class */
 .header nav {
     float: right;
     font-size: 20px;
-    color: white;
-    text-decoration: none;
+   
+    
 }
 
 /* List style type for unordered list under header class */
 .header nav ul {
     list-style-type: none;
+    
 }
 
 /* Style for lists under header class */
 .header nav ul li {
     display: inline-block;
     margin-right: 5px;
-    /* margin-left: 5px; */
+    
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    
+}
 @media only screen and (max-width: 630px) {
     header h1 {
         width: 30%;
@@ -118,7 +136,7 @@ body {
     margin-bottom: 10px;
     padding: 10px;
     height: auto;
-    background-color: #0072bb;
+    background-color: #2a607c;
     color: #ffffff;
     flex-direction: row;
     
@@ -139,6 +157,7 @@ body {
     display: flex;
     width: 80%;
     justify-content: space-evenly;
+    margin-top: 20px;
     
 }
 
@@ -173,10 +192,9 @@ body {
 /* --------------- Start of style for footer element --------------- */
 
 .footer {
-    padding: 30px;
-    clear: both;
+    padding: 5px;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* --------------- End of style for aside element --------------- */
